@@ -280,6 +280,7 @@ bt { font-size: 12px; }
 .bucketImg{
     position: relative;
     background-size: cover;
+    background-position: center;
 }
 .bucketImg .bucketTitle{
     position: absolute;
@@ -303,4 +304,74 @@ bt { font-size: 12px; }
 }
 #pages-3 .footer-title{
     display: none;
+}
+.imgqt{
+    width: 207px;
+    float: left;
+}
+/* MEDIA QUERIES 1024px  */
+@media screen and (max-width: 1024px){
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 !important;
+    }
+    .image-quote .quotext{
+        font-size: 29px;
+        margin-left: 29px;
+    }
+    .nb-title{
+        font-size: 15px !important;
+    }
+    .navbar-nav.navbar-right:last-child{
+        margin-right: 0;
+    }
+    #menu-main-menu{
+        font-size: 13px;
+    }
+    .navbar-nav>li>a{
+        padding: 15px 7px;
+    }
+    .container>.navbar-header{
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 !important;
+    }
+    .image-quote .quotext{
+        font-size: 29px;
+        margin-left: 29px;
+    }
+    .nb-title{
+        font-size: 15px !important;
+    }
+    .navbar-nav.navbar-right:last-child{
+        margin-right: 0;
+    }
+    #menu-main-menu{
+        font-size: 13px;
+    }
+    .navbar-nav>li>a{
+        padding: 15px 7px;
+    }
+    .container>.navbar-header{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 992px){
+    .image-quote .quotext{
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .row{
+        margin-right: 0px;
+    }
+    .sdbinfo{
+        padding-right: 0px;
+    }
 }

@@ -25,13 +25,13 @@
 <div class="container">
       <div class="row">
         <div class="widgets-containers">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <?php dynamic_sidebar('footer-left'); ?>
             </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
              <?php dynamic_sidebar('footer-middle'); ?>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <?php dynamic_sidebar('footer-right'); ?>
           </div>
             <div style="clear: both;"></div>

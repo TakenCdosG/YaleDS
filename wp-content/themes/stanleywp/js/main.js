@@ -41,6 +41,31 @@ jQuery(function(){
                 overlayColor: '#e74c3c',
                 zoom: 0
             });
-  
-
+    // Adding Bootstrap class for resolutions smaller than 768px
+    if(jQuery( window ).width()<769){
+            jQuery(".quoinftext").addClass("col-sm-8 col-xs-7");
+        }
+    else {   jQuery(".quoinftext").removeClass("col-sm-8 col-xs-7");}
+    //The resize detecting function to add or remove the bootstrap Class
+    jQuery( window ).resize( function() {
+        if(jQuery( window ).width()<769){
+            jQuery(".quoinftext").addClass("col-sm-8 col-xs-7");
+        }
+        else {   jQuery(".quoinftext").removeClass("col-sm-8 col-xs-7");}
+    });
+    if(jQuery( window ).width()<641){
+        jQuery(".quoinftext").removeClass("col-xs-7");
+        jQuery(".sdbinfo").removeClass("col-xs-5");
+    }
+    jQuery( window ).resize( function() {
+        if(jQuery( window ).width()<641){
+            jQuery(".quoinftext").removeClass("col-xs-7");
+            jQuery(".sdbinfo").removeClass("col-xs-5");
+        }
+        else {if(jQuery( window ).width()>641 && jQuery( window ).width()<768)
+        {
+            jQuery(".quoinftext").addClass("col-xs-7");
+            jQuery(".sdbinfo").addClass("col-xs-5");
+        }}
+    });
 });
