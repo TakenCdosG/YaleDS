@@ -198,6 +198,10 @@ bt { font-size: 12px; }
     font-size: 16px !important;
 }
 
+.navbar-brand{
+    letter-spacing: 0px;
+}
+
 .navbar.navbar-inverse.navbar-static-top{
     padding: 15px 0;
 }
