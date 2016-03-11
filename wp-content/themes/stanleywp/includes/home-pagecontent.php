@@ -49,9 +49,7 @@
                   <div class="col-lg-8 col-md-8 col-sm-8 imginfo">
                       <div class="image-quote">
                           <div class="imgqt" style="background-image: url(<?php echo esc_url( $quoteImg['url']); ?>); height: 206px; margin-top: -33px; background-repeat: no-repeat;"></div>
-                          <div class="quotext col-lg-7 col-md-7 col-xs-6">
                               <div class="quote"><?php echo '"'.$quoteText.'"'; ?></div>
-                          </div>
                       </div>
                       <div class="quoinftext">
                           <?php while( have_posts() ) : the_post(); ?>

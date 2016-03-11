@@ -42,13 +42,13 @@ jQuery(function(){
                 zoom: 0
             });
     // Adding Bootstrap class for resolutions smaller than 768px
-    if(jQuery( window ).width()<769){
+    if(jQuery( window ).width()<768){
             jQuery(".quoinftext").addClass("col-sm-8 col-xs-7");
         }
     else {   jQuery(".quoinftext").removeClass("col-sm-8 col-xs-7");}
     //The resize detecting function to add or remove the bootstrap Class
     jQuery( window ).resize( function() {
-        if(jQuery( window ).width()<769){
+        if(jQuery( window ).width()<768){
             jQuery(".quoinftext").addClass("col-sm-8 col-xs-7");
         }
         else {   jQuery(".quoinftext").removeClass("col-sm-8 col-xs-7");}
@@ -66,6 +66,23 @@ jQuery(function(){
         {
             jQuery(".quoinftext").addClass("col-xs-7");
             jQuery(".sdbinfo").addClass("col-xs-5");
+        }}
+    });
+    if(jQuery( window ).width()>767){
+        jQuery(".footlft").removeClass("col-xs-11 col-xs-offset-1").addClass("col-xs-4");
+        jQuery(".footmd").addClass("col-xs-4");
+        jQuery(".footrht").addClass("col-xs-4");
+    }
+    jQuery( window ).resize( function() {
+        if(jQuery( window ).width()<768){
+            jQuery(".footlft").addClass("col-xs-11 col-xs-offset-1").removeClass("col-xs-4");
+        }
+        else {if(jQuery( window ).width()>768)
+        {
+            jQuery(".footlft").removeClass("col-xs-11 col-xs-offset-1").addClass("col-xs-4");
+            jQuery(".footmd").addClass("col-xs-4");
+            jQuery(".footrht").addClass("col-xs-4");
+
         }}
     });
 });
