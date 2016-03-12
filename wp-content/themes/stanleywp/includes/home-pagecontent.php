@@ -26,7 +26,7 @@
 
   <!-- +++++ Welcome Section +++++ -->
   <div id="ww">
-      <div class="main-image" style="background-image: url(<?php echo esc_url( $mainImg['url']); ?>); background-size: cover; width: 100%; height: 390px; margin: auto; background-position: center; background-repeat: no-repeat; margin-top: -70px">
+      <div class="main-image" style="background-image: url(<?php echo esc_url( $mainImg['url']); ?>); background-size: cover; width: 100%; height: 390px; margin: auto; background-position: center; background-repeat: no-repeat;">
           <div class="container">
                   <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-5 sdbinfo" style="float: right;">
