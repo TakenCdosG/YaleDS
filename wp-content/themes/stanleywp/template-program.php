@@ -31,7 +31,7 @@
         <div class="main-image" style="background-image: url(<?php echo esc_url( $pimage['url']); ?>); background-size: cover; width: 100%; height: 499px; margin: auto; background-position: center; background-repeat: no-repeat;">
 
         </div>
-        <div class="container">
+        <div class="container program">
             <div class="row content-area">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <?php if (have_posts()) : ?>

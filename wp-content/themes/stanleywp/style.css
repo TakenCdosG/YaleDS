@@ -322,6 +322,63 @@ bt { font-size: 12px; }
     width: 207px;
     float: left;
 }
+/*PROGRAM PAGE*/
+.program{
+    padding: 0px 107px 75px;
+    background-color: white;
+    margin-top: -46px;
+}
+.program h1, .program h2{
+    font-family: "Georgia", georgia, sans-serif;
+    color: #043462;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom:27px;
+}
+.program h2{
+    font-size: 27px;
+    color:#454545;
+}
+.program p{
+    font-family: Arial, sans-serif;
+}
+.program .tab-pane{
+    background-color: #F3F3F3;
+    padding: 52px 23px;
+    border:none;
+}
+.nav-tabs>li>a{
+    background-color:#f3f3f3;
+    color:#515151;
+    background-color: #cccccc;
+    border-radius:0;
+    border: none !important;
+}
+.nav-tabs>li>a:hover{
+    border: none !important;
+    color: #043462;
+}
+.nav-tabs>li.active>a{
+    background-color:#f3f3f3;
+    border: none;
+    color: #043462;
+    font-weight: bold;
+}
+.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+    background-color:#f3f3f3;
+    border: none;
+    color: #043462;
+    font-weight: bold;
+}
+.nav-tabs>li:first-child a{
+     border-top-left-radius:8px;
+}
+.nav-tabs>li:last-child a{
+     border-top-right-radius:8px;
+}
+.nav-tabs{
+    border:none;
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 375px) {
     .navbar-brand{
@@ -422,8 +479,17 @@ bt { font-size: 12px; }
         margin: 0 auto;
         width: 663px;
         float: none !important;
+    } 
+    .container.program{
+        padding:0px 52px 75px !important;
     }
 }
+@media screen and (max-width: 768px){
+    .container.program{
+        padding:0px 34px 75px !important;
+    }   
+}
+
 @media screen and (max-width: 1024px){
     .container{
         margin: 0 auto;
