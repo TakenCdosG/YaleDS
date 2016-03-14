@@ -379,6 +379,27 @@ bt { font-size: 12px; }
 .nav-tabs{
     border:none;
 }
+.panel-default{
+    border:none;
+    background-color: #F3F3F3;
+}
+.panel-group .panel-heading+.panel-collapse .panel-body{
+    border:none;
+}
+.panel-title a{
+    color: #043462;
+    font-weight: bold;
+    font-family: "Georgia", georgia, sans-serif;
+}
+a.collapsed{
+    color:#515151;
+}
+.panel-heading{
+    background-color: #cccccc !important;
+}
+.panel-default:first-child{
+   
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 375px) {
     .navbar-brand{
