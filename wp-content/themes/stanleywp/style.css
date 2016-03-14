@@ -328,14 +328,14 @@ bt { font-size: 12px; }
     background-color: white;
     margin-top: -46px;
 }
-.program h1, .program h2{
+.program h1, .program h2, .wholeform h1, .wholeform h2{
     font-family: "Georgia", georgia, sans-serif;
     color: #043462;
     font-size: 40px;
     font-weight: 400;
     margin-bottom:27px;
 }
-.program h2{
+.program h2, .wholeform h2{
     font-size: 27px;
     color:#454545;
 }
@@ -550,6 +550,11 @@ bt { font-size: 12px; }
     .image-quote .quotext{
         margin-top: 6%;
     }
+    /* form style*/
+    span.wpcf7-list-item, .dinner-choice span.wpcf7-list-item{
+        margin-left: 0 !important;
+    }
+
 }
 @media screen and (max-width: 1200px){
     .row{
@@ -570,4 +575,54 @@ bt { font-size: 12px; }
         display: none;
     }
 
+}
+/* FORM STYLES */
+.container.wholeform{
+    background-color: #FFFFFF;
+}
+span.wpcf7-form-control-wrap input[type=text], span.wpcf7-form-control-wrap input[type=tel]{
+    width: 100%;
+}
+.content-area .row.form-area{
+    padding: 0 30px;
+}
+span.wpcf7-list-item.first{
+    margin-left: 0;
+}
+.dinner-choice span.wpcf7-list-item{
+    margin-left: 0.5em;
+}
+.bold-font{
+    font-weight: bold;
+    margin-left: 1.7em;
+}
+p .bold-font{
+    margin-left: 0;
+}
+.wpcf7-form-control.wpcf7-submit{
+    background-color: #043462;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-color: #043462;
+}
+.wpcf7-form-control.wpcf7-submit:hover{
+    background-color: #043462;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-color: #043462;
+}
+.appform{
+    position: relative;
+    top: -180px;
+}
+.appformlink{
+    font-family: "Georgia", georgia, sans-serif;
+    color: #043462;
+    border-bottom: 1px solid #043462;
+    font-size: 17px;
+}
+.directions{
+    font-family: "Georgia", georgia, sans-serif;
+    font-style: italic;
+    font-size: 16px;
 }
