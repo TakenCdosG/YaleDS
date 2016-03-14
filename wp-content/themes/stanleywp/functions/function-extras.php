@@ -2,16 +2,18 @@
 function bootstrap_scripts()
 {
 	// Register the scripts for this theme:
-	wp_register_script( 'bootstrap-script', get_template_directory_uri() . '/js/bootstrap.js', array( 'jquery' ) );
+    wp_register_script( 'bootstrap-script', get_template_directory_uri() . '/js/bootstrap.js', array( 'jquery' ) );
+    wp_register_script( 'bootstraptabcollapse-script', get_template_directory_uri() . '/js/bootstrap-tabcollapse.js', array( 'jquery' ) );
 	wp_register_script( 'hover-script', get_template_directory_uri() . '/js/hover.zoom.js', array( 'jquery' ) );
 	wp_register_script( 'main-script', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );
 
 	//  enqueue the script:
-	wp_enqueue_script( 'bootstrap-script' );
+    wp_enqueue_script( 'bootstrap-script' );
+    wp_enqueue_script( 'bootstraptabcollapse-script' );
 	wp_enqueue_script( 'hover-script' );
 	wp_enqueue_script( 'main-script' );
 }
-add_action( 'wp_enqueue_scripts', 'bootstrap_scripts' );
+add_action( 'wp_enqueue_scripts', 'bootstrap_scripts', 'bootstraptabcollapse-script' );
 
 
 function bootstrap_styles()

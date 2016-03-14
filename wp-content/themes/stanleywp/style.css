@@ -523,6 +523,9 @@ bt { font-size: 12px; }
         width: 100%;
         padding: 0 !important;
     }
+    .container.program{
+        padding:0px 52px 75px !important;
+    }
     .image-quote .quotext{
         font-size: 29px;
         margin-left: 29px;

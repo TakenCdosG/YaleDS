@@ -49,7 +49,7 @@
             <div class="row tabs-area">
                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
+                    <ul id="myTab" class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"><?php echo $t1title; ?></a></li>
                         <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"><?php echo $t2title; ?></a></li>
                         <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"><?php echo $t3title; ?></a></li>

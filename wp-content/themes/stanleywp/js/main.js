@@ -85,4 +85,17 @@ jQuery(function(){
 
         }}
     });
+    // Transforming TABS into COLLAPSIBLE PANES
+    jQuery(document).ready(function() {
+
+        // DEPENDENCY: https://github.com/flatlogic/bootstrap-tabcollapse
+        jQuery('#myTab').tabCollapse();
+
+        // initialize tab function
+        jQuery('.nav-tabs a').click(function(e) {
+            e.preventDefault();
+            jQuery(this).tab('show');
+        });
+
+    });
 });
