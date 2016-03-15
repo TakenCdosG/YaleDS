@@ -420,6 +420,13 @@ a.collapsed.js-tabcollapse-panel-heading{
 footer, footer a, .program-text {
     color:#888;
 }
+.tab-content{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#888;
+}
+.tab-content tr strong{
+    font-family: "Georgia", georgia, sans-serif; 
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 375px) {
     .navbar-brand{
