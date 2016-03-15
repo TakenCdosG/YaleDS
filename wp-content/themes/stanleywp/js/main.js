@@ -96,7 +96,6 @@ jQuery(function(){
             e.preventDefault();
             jQuery(this).tab('show');
         });
+
     });
-
-
 });

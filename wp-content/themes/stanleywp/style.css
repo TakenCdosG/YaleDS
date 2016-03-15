@@ -395,10 +395,15 @@ a.collapsed{
     color:#515151;
 }
 .panel-heading{
-    background-color: #cccccc !important;
+    padding: 0 !important;
 }
-.panel-default:first-child{
-   
+a.js-tabcollapse-panel-heading{
+    padding:10px 15px  !important;
+    display: block;
+}
+a.collapsed.js-tabcollapse-panel-heading{
+
+    background-color: #cccccc;
 }
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 375px) {
