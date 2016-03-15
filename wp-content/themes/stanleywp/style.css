@@ -427,6 +427,15 @@ footer, footer a, .program-text {
 .tab-content tr strong{
     font-family: "Georgia", georgia, sans-serif; 
 }
+/*FORM*/
+.wpcf7-list-item, .wpcf7-form-control-wrap{
+    margin-bottom:15px;
+}
+span.bold-font{
+    display: block;
+    margin-bottom: 15px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 375px) {
     .navbar-brand{
@@ -616,7 +625,7 @@ footer, footer a, .program-text {
         font-size: 30px;
     }
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
     .image-quote .quotext{
         margin-top: 6%;
     }
@@ -635,6 +644,9 @@ footer, footer a, .program-text {
     }
     .sdbinfo, .bckinfo{
         padding-right: 0px;
+    }
+    .dinner{
+        font-size: 13px;
     }
 }
 @media screen and (min-width: 1200px) {
