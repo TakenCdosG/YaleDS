@@ -97,9 +97,9 @@
                 $postid = get_the_ID();
                 $lefttext = get_field('leftside_text'); $rightext = get_field('rightside_text');
                 if($postid == 4 ): ?>
-                    <?php echo $lefttext; ?><div class="sepdot"> · </div><?php echo $rightext; ?>
+                    <?php echo $lefttext; ?><div class="sepdot"> · </div><span class="rightsidetext"><?php echo $rightext; ?></span>
                 <?php else : ?>
-                    <?php the_field('leftside_text',4) ?><div class="sepdot"> · </div><?php the_field('rightside_text',4); ?>
+                    <?php the_field('leftside_text',4) ?><div class="sepdot"> · </div><span class="rightsidetext"><?php the_field('rightside_text',4); ?></span>
                 <?php endif; ?>
         </div>
     </div>
