@@ -277,7 +277,7 @@ bt { font-size: 12px; }
     font-family: "Georgia", georgia, sans-serif;
     color: #043462;
 }
-.sdbinfo {
+.sdbinfo, .bckinfo {
     padding-left: 0px;
 }
 .imginfo{
@@ -427,11 +427,15 @@ footer, footer a, .program-text {
 }
 @media screen and (min-width: 320px) and (max-width: 640px){
     .imgqt{
-        width: 50%;
+        height: 173px !important;
+        margin-top: 0px !important;
+        width: 150px !important;
+        background-size: cover;
+        overflow: hidden;
     }
     .quote{
-        padding: 50px 0px 50px 28px;
-        width: 37%;
+        padding: 60px 0px 50px 28px;
+        width: 52%;
         font-size: 16px;
     }
     .footmd, .footrht{
@@ -464,10 +468,14 @@ footer, footer a, .program-text {
     .container>.navbar-collapse{
         margin: 0 0;
     }
+    .dates-buckets{
+        line-height: 1.2;
+        
+    }
 }
 @media screen and (min-width: 400px) and (max-width: 640px) {
     .quote{
-        padding: 20px 0px 50px 28px;
+        padding: 55px 0px 50px 28px;
         font-size: 22px;
     }
 }
@@ -525,6 +533,17 @@ footer, footer a, .program-text {
     .container.program{
         padding:0px 34px 75px !important;
     }   
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px){
+    .dates-buckets{
+        line-height: 1.2;
+        padding: 0 24px;
+    }
+    .bucket-date{
+        width: 65%;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -603,7 +622,7 @@ footer, footer a, .program-text {
     .row{
         margin-right: 0px;
     }
-    .sdbinfo{
+    .sdbinfo, .bckinfo{
         padding-right: 0px;
     }
 }
