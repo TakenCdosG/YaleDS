@@ -583,7 +583,7 @@ span.bold-font{
         margin-right: 0;
     }
     #menu-main-menu{
-        font-size: 13px;
+        font-size: 17px;
     }
     .navbar-nav>li>a{
         padding: 15px 7px;
@@ -612,9 +612,9 @@ span.bold-font{
     .navbar-nav.navbar-right:last-child{
         margin-right: 0;
     }
-    #menu-main-menu{
+    /*#menu-main-menu{
         font-size: 13px;
-    }
+    }*/
     .navbar-nav>li>a{
         padding: 15px 7px;
     }
