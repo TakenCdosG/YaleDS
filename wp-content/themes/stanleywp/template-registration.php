@@ -28,7 +28,7 @@ $file = get_field('upload_application');
                                 </header>
                                     <div class="row form-area">
                                         <?php the_content(); ?>
-                                        <div class="appform">
+                                        <div class="appform row form-area">
                                             <?php
                                             if( $file ): ?>
                                                 <a href="<?php echo $file['url']; ?>" class="appformlink">Download the Application for Physician Observers</a>
