@@ -354,6 +354,9 @@ bt { font-size: 12px; }
 .program p{
     font-family: Arial, sans-serif;
 }
+.program td p{
+	font-size: 14px;
+}
 .program .tab-pane{
     background-color: #F3F3F3;
     padding: 52px 23px;
