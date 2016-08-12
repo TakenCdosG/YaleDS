@@ -61,19 +61,25 @@
                       <div class="side-buckets-info">
                           <div class="buckets-container">
                               <div class="sideBucket1">
-                                  <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg1['url']); ?>); height: 174px; background-repeat: no-repeat;">
-                                      <div class="bucketTitle"><?php echo $bucketInfo1; ?></div>
-                                  </div>
+                                  <a href="<?php echo $bucketInfoUrl1;?>" target="_blank">
+                                      <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg1['url']); ?>); height: 174px; background-repeat: no-repeat;">
+                                          <div class="bucketTitle"><?php echo $bucketInfo1; ?></div>
+                                      </div>
+                                  </a>
                               </div>
                               <div class="sideBucket2">
-                                  <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg2['url']); ?>); height: 174px; background-repeat: no-repeat;">
-                                      <div class="bucketTitle"><?php echo $bucketInfo2; ?></div>
-                                  </div>
+                                  <a href="<?php echo $bucketInfoUrl2;?>" target="_blank">
+                                      <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg2['url']); ?>); height: 174px; background-repeat: no-repeat;">
+                                          <div class="bucketTitle"><?php echo $bucketInfo2; ?></div>
+                                      </div>
+                                  </a>
                               </div>
                               <div class="sideBucket3">
-                                  <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg3['url']); ?>); height: 174px; background-repeat: no-repeat;">
-                                      <div class="bucketTitle"><?php echo $bucketInfo3; ?></div>
-                                  </div>
+                                  <a href="<?php echo $bucketInfoUrl3;?>" target="_blank">
+                                      <div class="bucketImg" style="background-image: url(<?php echo esc_url( $bucketImg3['url']); ?>); height: 174px; background-repeat: no-repeat;">
+                                          <div class="bucketTitle"><?php echo $bucketInfo3; ?></div>
+                                      </div>
+                                  </a>
                               </div>
                           </div>
                       </div>
