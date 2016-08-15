@@ -714,3 +714,7 @@ p .bold-font{
     font-style: italic;
     font-size: 16px;
 }
+/* PROGRAM PAGE GALLERY IMAGE SIZE*/
+.gallery .gallery-item{
+    width:33% !important;
+}
