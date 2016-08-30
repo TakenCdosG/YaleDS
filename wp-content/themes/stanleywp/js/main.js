@@ -98,4 +98,22 @@ jQuery(function(){
         });
 
     });
+    // Enable/Disable Checkboxes if 'All Events' is checked on Registration Page
+    jQuery("#events1").click(function(){
+       if(jQuery("#events1").prop("checked")){
+           jQuery(".chk1").prop("disabled", true);
+       }
+        else{
+           jQuery(".chk1").prop("disabled", false);
+       }
+    });
+    jQuery("#events2").click(function(){
+        if(jQuery("#events2").prop("checked")){
+            jQuery(".chk2").prop("disabled", true);
+        }
+        else{
+            jQuery(".chk2").prop("disabled", false);
+        }
+    });
+
 });
